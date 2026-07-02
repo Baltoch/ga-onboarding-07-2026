@@ -1,12 +1,12 @@
 name: 'Check Syntax'
 
 on:
-  pull-request:
+  pull_request:
     branches:
       - main
 
 jobs:
-  check-syntax:
+  check_syntax:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout repo'
