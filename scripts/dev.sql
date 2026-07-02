@@ -1,1 +1,1 @@
-INSERT INTO something VALUES ('test', 123)
+INSERT INTO table_dev (name) VALUES ('Balthazar');
