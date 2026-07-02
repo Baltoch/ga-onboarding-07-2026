@@ -1,1 +1,1 @@
-inSert InTo somethig Values (teiosgi, tgoisn)
+INSERT INTO something VALUES ('test', 123)
