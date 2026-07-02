@@ -37,7 +37,7 @@ jobs:
           name: ${{ needs.build.outputs.artifact_name }}
           path: artifact
       - name: 'Extract artifact'
-        run: unzip artifact.*.zip -d extracted
+        run: unzip artifact/*.zip -d extracted
       - name: 'Install PosgreSQL'
         run: |
           sudo apt-get update
